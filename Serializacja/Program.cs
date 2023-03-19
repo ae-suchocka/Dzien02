@@ -10,7 +10,9 @@ namespace Serializacja
     {
         static void Main(string[] args)
         {
-            JsonSerializer1.Create();
+            //JsonSerializer1.Create();
+            //JsonSerializer1.ApplyJson();
+            JsonSerializer1.NBP();
         }
     }
 }

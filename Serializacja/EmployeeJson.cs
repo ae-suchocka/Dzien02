@@ -2,7 +2,9 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
+using System.Text.Json.Serialization;
 using System.Threading.Tasks;
+using System.Web.Script.Serialization;
 
 namespace Serializacja
 {
@@ -17,6 +19,9 @@ namespace Serializacja
         public bool? IsManager { get; set; }
         public List<int> AccessRooms { get; set; }
         public DateTime? StartAt { get; set; }
+
+        [ScriptIgnore]
+        [JsonIgnore]
         public List<string> ExtraData { get; set; }
 
         [NonSerialized()]
