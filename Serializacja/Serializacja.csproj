@@ -44,7 +44,9 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="EmployeeXML.cs" />
     <Compile Include="EmployeeSoap.cs" />
+    <Compile Include="SerializerXML.cs" />
     <Compile Include="SoapSerializer.cs" />
     <Compile Include="BinarySerializer.cs" />
     <Compile Include="Employee.cs" />
